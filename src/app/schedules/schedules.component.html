@@ -2,7 +2,7 @@
     <div class="color-overlay"></div>
     <div class="layer h-100"></div>
     <h2>Generated Schedules</h2>
-    <div  *ngFor="let schedule of schedules; let i = index" class="timetable">
+    <div  *ngFor="let schedule of schedules ; let i = index" class="timetable">
         <div class="week-names">
           <div>Sunday</div>
           <div>Monday</div>
@@ -28,7 +28,7 @@
         </div>
         <div class="content">
           <div>
-            <div [ngClass]="{ 'accent-cyan-gradient': schedule.sunday.hour_1_section }" ><div *ngIf="schedule.sunday.hour_1_section " class="period m-auto" >{{schedule.sunday.hour_1_section?.course_code }} - {{schedule.sunday.hour_1_section?.section_type }}</div></div>
+            <div [ngClass]="{ 'accent-cyan-gradient': schedule.sunday.hour_1_section }" ><div *ngIf="schedule.sunday.hour_1_section " class="period m-auto" >dwdwqdwqdq</div></div>
           </div>
           <div>
             <div [ngClass]="{ 'accent-cyan-gradient': schedule.monday.hour_1_section }" ><div *ngIf="schedule.sunday.hour_1_section " class="period m-auto">{{schedule.monday.hour_1_section?.course_code }} - {{schedule.monday.hour_1_section?.section_type }}</div></div>
